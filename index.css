@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* COLOR CODES */
+:root {
+  --darkBlue: (#2d314d);
+  --limeGreen: (#31d35c);
+  --lightBlue: (#2bb7da);
+  --gray: (#9698a6);
+  --white: (#ffffff);
+  --lightGray: (#f3f4f6);
+  --veryLightGray: (#fafafa);
+}
