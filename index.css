@@ -278,7 +278,8 @@ footer {
 }
 
 .img_container:hover .social_icon {
-  color: var(--limeGreen);
+  filter: invert(66%) sepia(92%) saturate(354%) hue-rotate(85deg) brightness(96%) contrast(92%);
+
 }
 
 .inner_foot_2 ul {
