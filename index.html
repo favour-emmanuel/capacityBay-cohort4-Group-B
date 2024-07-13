@@ -35,27 +35,40 @@
 
     <!--  HERO SECTION -->
     <div class="hero-section">
-      <div class="section-layout">
-        <div class="banking">
+      <div class="hero-container">
+        <!-- FOR MOBILE VIEW -->
+        <div class="mobile-image">
+          <img
+            src="./assets/bg-intro-mobile.svg"
+            alt=""
+            class="mobile-bg-layer"
+          />
+          <img
+            src="./assets/image-mockups.png"
+            alt=""
+            class="mobile-bg-image"
+          />
+        </div>
+        <div class="hero-text">
           <h1>Next generation digital banking</h1>
           <p>
-            Take your financial life online.Your Easybank account will be a one
-            stop shop for spending, saving, budgeting, investing and much more
+            Take your financial life online. Your Easybank account will be a one
+            stop shop for spending, saving, budgeting, investing and much more.
           </p>
-          <div class="btn">
-            <button><a href="#">Request Invite</a></button>
+          <div class="hero-btn">
+            <button>Request Invite</button>
           </div>
         </div>
-        <div class="mobile">
-          <div class="image">
-            <img src="./assets/image-mockups.png" alt="mobile images" />
-          </div>
+        <!-- FOR DESKTOP VIEW -->
+        <div class="hero-image">
+          <img src="./assets/bg-intro-desktop.svg" alt="" class="bg-layer" />
+          <img src="./assets/image-mockups.png" alt="" class="bg-image" />
         </div>
       </div>
     </div>
 
     <!-- FOOTER SECTION -->
-    <footer>
+    <!-- <footer>
       <div class="foot_1">
         <div class="inner_foot_1">
           <div class="footer_logo">
@@ -99,7 +112,7 @@
         <button class="btn">Request Invite</button>
         <div class="copyright">&copy;Easybank. All Rights Reserved</div>
       </div>
-    </footer>
+    </footer> -->
   </body>
   <script src="./script.js"></script>
 </html>
