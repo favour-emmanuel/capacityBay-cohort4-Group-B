@@ -164,8 +164,6 @@ footer {
   background-color: var(--darkBlue);
   width: 100vw;
   display: flex;
-  position: relative;
-  bottom: 0;
   justify-content: space-around;
   align-items: center;
   padding: 10px;
