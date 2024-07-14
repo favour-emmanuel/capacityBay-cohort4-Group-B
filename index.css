@@ -719,7 +719,7 @@ footer {
 /* For small smartphones (max-width: 480px) */
 @media only screen and (max-width: 480px) {
   .choose {
-    padding: 10px 5px 10px 20px;
+    padding: 30px 5px 25px 20px;
     align-items: center;
     justify-content: center;
   }
@@ -729,7 +729,7 @@ footer {
   }
 
   .why_easybank_2 {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .services {
