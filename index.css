@@ -436,6 +436,7 @@ footer {
   }
   .latest-articles{
     height: 100%;
+    padding: 50px 0px 50px 0px;
   }
   .foot_1{
     display: grid;
