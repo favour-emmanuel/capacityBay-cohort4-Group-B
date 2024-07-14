@@ -251,9 +251,8 @@ nav {
 }
 
 .services {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1.2rem;
 }
 
@@ -261,11 +260,14 @@ nav {
 .service_2,
 .service_3,
 .service_4 {
-  /* margin-right: 40px; */
   display: flex;
   flex-direction: column;
+
   justify-content: space-around;
   /* align-items: start; */
+
+  align-items: start;
+
 }
 
 .services_img {
@@ -439,7 +441,7 @@ footer {
 }
 .la-sect {
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px ;
+  grid-template-columns: 250px 250px 250px 250px;
   gap: 20px;
 }
 .frsimg {
@@ -454,6 +456,12 @@ footer {
   .latest-articles {
     height: 100%;
     padding: 50px 0px 50px 0px;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
   }
 }
 
@@ -539,6 +547,10 @@ footer {
   .social_icon {
     width: 23px;
   }
+
+  .choose {
+    padding: 30px 50px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .la-sect {
@@ -547,6 +559,19 @@ footer {
   .latest-articles {
     height: 100%;
     padding: 50px 0px 50px 0px;
+  }
+
+  .choose {
+    padding: 35px 50px;
+  }
+
+  .why_easybank {
+    text-align: center;
+    width: 100%;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
   }
 }
 @media only screen and (max-width: 768px) {
