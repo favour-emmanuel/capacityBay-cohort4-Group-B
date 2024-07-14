@@ -262,12 +262,18 @@ nav {
 .service_4 {
   display: flex;
   flex-direction: column;
+
+  justify-content: space-around;
+  /* align-items: start; */
+
   align-items: start;
+
 }
 
 .services_img {
   width: 40px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .service_name {
@@ -641,6 +647,8 @@ footer {
     text-align: center;
   }
 }
+
+
 /* why choose us */
 /* For tablets and larger smartphones (max-width: 1024px) */
 @media only screen and (max-width: 1024px) {
@@ -651,6 +659,14 @@ footer {
   .services {
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+  }
+  .services_img {
+    width: 40px;
+    margin-bottom: 20px;
+    align-self: center; /* Aligning the image to the center */
   }
   
   .services_1,
@@ -669,7 +685,10 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  
+  .why_easybank {
+    text-align: center;
+    margin-bottom: 50px;
+  }
   .why_easybank .why_easybank_1 {
     font-size: 22px;
   }
@@ -681,6 +700,7 @@ footer {
   .services {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   
   .services_1,
@@ -691,7 +711,11 @@ footer {
     margin-bottom: 15px;
     width: 90%;
   }
-  
+  .services_img {
+    width: 40px;
+    margin-bottom: 20px;
+    align-self: center; /* Aligning the image to the center */
+  }
   .service_name {
     font-size: 16px;
   }
@@ -708,9 +732,14 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
+  .why_easybank {
+    text-align: center;
+    margin-bottom: 50px;
+  }
   
   .why_easybank .why_easybank_1 {
-    font-size: 20px;
+    font-size: 22px;
   }
   
   .why_easybank_2 {
@@ -721,6 +750,12 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+  }
+  .services_img {
+    width: 40px;
+    margin-bottom: 20px;
+    align-self: center; /* Aligning the image to the center */
   }
   
   .services_1,
