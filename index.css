@@ -496,5 +496,32 @@ footer {
   }
   .latest-articles{
     height: 100%;
+    padding: 50px 0px 50px 0px;
+  }
+  .foot_1{
+    display: grid;
+  }
+  footer{
+    display: grid;
+    text-align: center;
+  }
+  .foot_2{
+    margin-top: 20px;
+  }
+  .inner_foot_2 ul{
+    align-items: center;
+    margin-left: 0px;
+  }
+  .inner_foot_2 li{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .foot_1{
+    justify-content: center;
+  }
+  .social_icon{
+    width: 23px;
   }
 }
