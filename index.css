@@ -92,7 +92,7 @@ nav {
 /* HERO SECTION */
 
 .hero-section {
-  height: 100vh;
+  height: 80vh;
   background-color: #fafafa;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -191,13 +191,18 @@ nav {
     align-items: center;
   }
   .hero-section .section-layout .banking p {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 5px auto;
+    text-align: center;
   }
+
   .hero-section .section-layout .banking h1 {
-    font-size: 53px;
+    font-size: 48px;
     font-weight: 500;
+    text-align: center;
   }
+
   .hero-btn {
     margin-top: 20px;
   }
@@ -249,14 +254,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 1.2rem;
 }
 
 .services_1,
 .service_2,
 .service_3,
 .service_4 {
-  margin-right: 40px;
-  gap: 20px;
+  /* margin-right: 40px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
