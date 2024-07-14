@@ -261,10 +261,11 @@ nav {
 .service_2,
 .service_3,
 .service_4 {
-
+  /* margin-right: 40px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  /* align-items: start; */
 }
 
 .services_img {
