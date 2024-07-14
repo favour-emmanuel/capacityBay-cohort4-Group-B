@@ -169,6 +169,7 @@ nav {
   background-color: var(--lightGray);
   margin-top: 40px;
 }
+
 .why_easybank {
   text-align: start;
   margin-bottom: 50px;
@@ -199,6 +200,7 @@ nav {
 .service_3,
 .service_4 {
   margin-right: 40px;
+  gap: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -278,8 +280,8 @@ footer {
 }
 
 .img_container:hover .social_icon {
-  filter: invert(66%) sepia(92%) saturate(354%) hue-rotate(85deg) brightness(96%) contrast(92%);
-
+  filter: invert(66%) sepia(92%) saturate(354%) hue-rotate(85deg)
+    brightness(96%) contrast(92%);
 }
 
 .inner_foot_2 ul {
@@ -330,7 +332,7 @@ footer {
 }
 
 /* latest-articles */
-.latest-articles{
+.latest-articles {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -339,43 +341,43 @@ footer {
   height: 100vh;
   font-family: "Public Sans", sans-serif;
 }
-.latest-articles h1{
+.latest-articles h1 {
   color: var(--darkBlue);
   font-weight: 400;
   margin-bottom: 50px;
   font-size: 35px;
 }
-.la-card{
+.la-card {
   background-color: var(--white);
   width: 250px;
   border-radius: 7px;
 }
-.la-cardtext{
+.la-cardtext {
   padding: 12px;
   border-radius: 7px;
 }
-.la-ptxt1{
+.la-ptxt1 {
   color: var(--gray);
   font-size: 13px;
 }
-.la-ptxt2{
+.la-ptxt2 {
   font-size: 18px;
   color: var(--darkBlue);
   padding: 10px 0px 10px 0px;
 }
-.la-ptxt3{
+.la-ptxt3 {
   color: var(--gray);
   font-size: 14px;
 }
-.la-card img{
+.la-card img {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
-.la-sect{
+.la-sect {
   display: flex;
   gap: 20px;
 }
-.frsimg{
+.frsimg {
   height: 167px;
 }
 
