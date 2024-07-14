@@ -96,12 +96,6 @@ nav {
   height: 100vh;
   background-color: #fafafa;
   overflow-x: hidden;
-=======
-.hero-section{
-  display: flex;
-  width: 100%;
-  /* height: 100vh; */
-
 }
 .hero-section .section-layout{
   display: flex;
@@ -170,9 +164,75 @@ nav {
 
 
 /* END OF HERO SECTION */
+
+
+/* WHY CHOOSE EASYBANK */
+.choose {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 50px 40px 50px 140px;
+  background-color: var(--lightGray);
+}
+.why_easybank {
+  text-align: start;
+  margin-bottom: 50px;
+}
+
+.why_easybank .why_easybank_1 {
+  font-weight: lighter;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.why_easybank_2 {
+  color: var(--gray);
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.services_1,
+.service_2,
+.service_3{
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.service_4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+
+}
+
+.services_img {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+.service_name {
+  font-weight: 200;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  color: var(--gray);
+}
+
+
+/*FOOTER SECTION*/
 footer {
   background-color: var(--darkBlue);
-  width: 100vw;
+  width: 100%;
   display: flex;
   position: relative;
   bottom: 0;
@@ -258,7 +318,7 @@ footer {
 
 /* MEDIA QUERY */
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   nav {
     padding: 1.4rem 2rem;
   }
@@ -307,64 +367,5 @@ footer {
     color: var(--darkBlue);
   }
 
-} */
-
-}
-
-/* WHY CHOOSE EASYBANK */
-.choose {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  padding: 50px 40px 50px 140px;
-  background-color: var(--lightGray);
-  margin-top: 40px;
-}
-.why_easybank {
-  text-align: start;
-  margin-bottom: 50px;
-}
-
-.why_easybank .why_easybank_1 {
-  font-weight: lighter;
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.why_easybank_2 {
-  color: var(--gray);
-}
-
-.services {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.services_1,
-.service_2,
-.service_3,
-.service_4 {
-  margin-right: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: start;
-}
-
-.services_img {
-  width: 40px;
-  margin-bottom: 20px;
-}
-
-.service_name {
-  font-weight: 200;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.desc {
-  color: var(--gray);
-}
+} 
 
