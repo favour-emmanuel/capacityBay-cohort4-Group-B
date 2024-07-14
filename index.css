@@ -548,3 +548,177 @@ footer {
     padding: 50px 0px 50px 0px;
   }
 }
+@media only screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .foot_1 {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inner_foot_1 {
+    margin-bottom: 20px;
+  }
+  
+  .social {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .inner_foot_2 ul {
+    margin-left: 0;
+    align-items: center;
+  }
+  
+  .foot_2 {
+    align-items: center;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .foot_1 {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inner_foot_1 {
+    margin-bottom: 20px;
+  }
+  
+  .social {
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .inner_foot_2 ul {
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .foot_2 {
+    align-items: center;
+    text-align: center;
+  }
+}
+/* why choose us */
+/* For tablets and larger smartphones (max-width: 1024px) */
+@media only screen and (max-width: 1024px) {
+  .choose {
+    padding: 30px 20px 30px 70px;
+  }
+  
+  .services {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .services_1,
+  .service_2,
+  .service_3,
+  .service_4 {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 48%; /* Adjust width to fit two columns */
+  }
+}
+/* For smartphones (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .choose {
+    padding: 20px 10px 20px 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .why_easybank .why_easybank_1 {
+    font-size: 22px;
+  }
+  
+  .why_easybank_2 {
+    font-size: 14px;
+  }
+  
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .services_1,
+  .service_2,
+  .service_3,
+  .service_4 {
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 90%;
+  }
+  
+  .service_name {
+    font-size: 16px;
+  }
+  
+  .desc {
+    font-size: 14px;
+  }
+}
+
+/* For small smartphones (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  .choose {
+    padding: 10px 5px 10px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .why_easybank .why_easybank_1 {
+    font-size: 20px;
+  }
+  
+  .why_easybank_2 {
+    font-size: 13px;
+  }
+  
+  .services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .services_1,
+  .service_2,
+  .service_3,
+  .service_4 {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .service_name {
+    font-size: 15px;
+  }
+  
+  .desc {
+    font-size: 13px;
+  }
+}
+
+/* why choose us end */
