@@ -155,6 +155,7 @@ nav {
   left: 20%;
   top: -10%;
 }
+
 @media (max-width: 768px) {
   .hero-section {
     min-height: 1100px;
@@ -422,7 +423,9 @@ footer {
 }
 .la-ptxt3 {
   color: var(--gray);
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.3rem;
 }
 .la-card img {
   border-top-left-radius: 7px;
@@ -494,30 +497,30 @@ footer {
     height: 100%;
     padding: 50px 0px 50px 0px;
   }
-  .foot_1{
+  .foot_1 {
     display: grid;
   }
-  footer{
+  footer {
     display: grid;
     text-align: center;
   }
-  .foot_2{
+  .foot_2 {
     margin-top: 20px;
   }
-  .inner_foot_2 ul{
+  .inner_foot_2 ul {
     align-items: center;
     margin-left: 0px;
   }
-  .inner_foot_2 li{
+  .inner_foot_2 li {
     text-align: center;
     justify-content: center;
     align-items: center;
     padding-top: 10px;
   }
-  .foot_1{
+  .foot_1 {
     justify-content: center;
   }
-  .social_icon{
+  .social_icon {
     width: 23px;
   }
 }
